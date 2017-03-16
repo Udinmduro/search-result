@@ -183,13 +183,32 @@ h3.date-header{text-transform:none;font:400 12px Arial;color:#666;line-height:1.
 .main-wrapper{margin-right:0;width:100%;min-height:0}
 }
 @media screen and (max-width: 480px){
-.search-wrapper,#search-box{width:100%;height:73px;}
-.thumbnail-area,.thumbnailjpg{display:none}
-.summary,.postag a,.post h1,.post h2{padding-left:20px;padding-right:15px}
-.post{padding-bottom:10px}
+.header-wrapper{padding: 0 0 0 15px;height:auto;position:relative;width:100%;}
+#header-inner{height:60%;margin:auto 50px;}
+#header h1{height:60%;width:auto}
+#header{height:60%;width:auto;}
+#header-inner a{height:60%;font-size:100%}
+.search-wrapper,#search-box{height:60%;margin:auto 5px;width:100%}
+#search-box form{margin-left:5px;}
+.Navtop ul{display:none}
+}
+@media screen and (max-width: 320px){
+.header-wrapper{padding: 0 0 0 15px;height:auto;position:relative;width:100%;margin:0 auto}
+#header-inner{height:60%;margin:auto 40px;}
+#header h1{height:60%;}
+#header{height:60%;width:80%}
+#header-inner a{height:60%;font-size:95%}
+.search-wrapper,#search-box{height:60%;margin:auto 5px;width:100%}
+.Navtop ul{display:none}
 }
 @media screen and (max-width: 240px){
-#header amp-img{border:0 none;background:none;max-width:95%;height:auto;margin:0 auto}
+.header-wrapper{padding: 0 0 0 15px;height:auto;position:relative;width:100%;margin:0 auto}
+#header-inner{height:60%;margin:auto 40px;}
+#header h1{height:60%;}
+#header{height:60%;width:80%}
+#header-inner a{height:60%;font-size:95%}
+.search-wrapper,#search-box{height:60%;margin:auto 5px;width:100%}
+.Navtop ul{display:none}
 }
 </style>
 <style amp-boilerplate='amp-boilerplate'>
